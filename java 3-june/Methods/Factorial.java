@@ -1,0 +1,25 @@
+class Factorial
+{
+public static int toGetFact(int factNumber)
+{
+ System.out.println("Fact Method Started");
+    int fact =1;
+	
+	for(int num=1 ; num<=factNumber ; num++)
+	{
+		fact = num * fact;
+	}
+	System.out.println(fact);
+	System.out.println("Fact Method Ended");
+	  return fact ;
+    }
+	public static int totalNumberOfThings(int factNumber, int numThing)
+	{
+		System.out.println("Total number of things started ");
+		int numThings = factNumber - numThing;
+		System.out.println("Total number of Things ended");
+		return numThings;
+   }
+}
+
+ 

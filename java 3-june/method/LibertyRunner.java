@@ -1,0 +1,66 @@
+class LibertyRunner
+{
+
+	public static void main(String[] footware)
+	{
+	
+		boolean isAdded = Liberty.addShoeBrand("Nike");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		 isAdded = Liberty.addShoeBrand("Crorc");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		 isAdded = Liberty.addShoeBrand("H&M");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		 isAdded = Liberty.addShoeBrand("Pump");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		 isAdded = Liberty.addShoeBrand("Bata");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		 isAdded = Liberty.addShoeBrand("Adidas");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		 isAdded = Liberty.addShoeBrand("Wilson");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("Skechers");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("Hoka");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("Reebok");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("NewBalance");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("Brooks");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("TimberLand");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("OOfos");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		isAdded = Liberty.addShoeBrand("Asics");
+		System.out.println("is Shoe Brand Added : " + isAdded);
+		
+		
+		
+	Liberty.getAllShoeBrand();
+	boolean newShoeBrandUpdate = Liberty.updateShoeBrand("NewBalance","Sperry");
+	Liberty.getAllShoeBrand();
+	
+	 Liberty.deleteShoeBrand("OOfos");
+	 Liberty.getAllShoeBrand();
+	
+	}
+	
+	
+
+
+}

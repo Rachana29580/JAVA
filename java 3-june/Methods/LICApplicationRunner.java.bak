@@ -1,0 +1,14 @@
+class LICApplicationRunner
+  {
+
+   public static void main(String Appln[])
+   {
+
+      LIC.createLICApplication("Divya" ,"4/06/2002", 34567890,  "Karnataka " , "Mysore " ,50000, "11000");
+	  
+	  
+	  LIC.getLICApplicationDetails();
+	  
+}
+	  
+	  }

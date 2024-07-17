@@ -1,0 +1,41 @@
+class LoanApplication
+{
+	static int bankAccountNo;
+	static String bankName;
+	static int creditScore;
+	static double rateOfInterset; 
+	static String loanType;
+
+	
+	
+	public static boolean createLoanApplication( int bankAccountNo, String bankName,int creditScore,double rateOfInterset, String loanType)
+	{
+	boolean isLoanApplicationDataCreated =false;
+	
+	if(bankAccountNo>0 , bankName!=null , creditScore>0 ,rateOfInterset>0, loanType!=null )
+	{
+	baAcc = bankAccountNo;
+	baNm = bankName;
+	cdSc = creditScore;
+	rtOfInt = rateOfInterset;
+	lnTyp = loanType;
+	
+	
+	isLoanApplicationDataCreated=true;
+	}
+	else
+	{
+		System.out.println("Please provide a valid bankAccountNo/bankName/creditScore/rateOfInterset/loanType");
+	}
+	return isLoanApplicationDataCreated;
+	}
+	public static void getLoanApplicationDetails()
+	{	
+	System.out.println("The Bank Account Number is:" + baAcc);
+	System.out.println("The Bank Name is:" + baNm);
+	System.out.println("The Credit Score is:" + cdSc);
+	System.out.println("The Rate Of Interset is:" + rtOfInt);
+	System.out.println("The Loan Type is:" + lnTyp);
+	
+}
+}

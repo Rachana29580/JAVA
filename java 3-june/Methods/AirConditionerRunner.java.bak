@@ -1,0 +1,7 @@
+class AirConditionerRunner
+{
+ public static getFeatures()
+ {
+ System.out.println(" getFeatures Started");
+  String name = "Samsung";
+  double price = 71000.00;

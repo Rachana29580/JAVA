@@ -1,0 +1,5 @@
+class WaterproofRainCoat{
+  public static void main(Strings[] raincoat) {
+  System.out.println("The product comes with waterproof pant to ensure that you stay completely dry during the rain");
+  }
+}

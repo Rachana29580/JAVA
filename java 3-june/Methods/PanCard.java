@@ -1,0 +1,44 @@
+class PanCard
+    {
+
+        static String fnme;
+	    static String lnme;
+		
+		static String gnd;
+		static String eml;
+		static int    phe;
+		static Long adh;
+		
+		 	 
+   public static boolean createPanCard(String firstName, String lastName,  String gender, String email, int phoneNum, Long addharNum )
+   { 
+         
+		 boolean isPanCardDataCreated = false;
+		 
+		 fnme = firstName;
+		 lnme = lastName;
+		 
+		 gnd = gender;
+		 eml = email;
+		 phe = phoneNum;
+		 adh = addharNum;
+		 
+		 return isPanCardDataCreated; 
+}    
+     public static void getPanCardDetails()
+    {
+         System.out.println("The  First name is:" + fnme);
+		 System.out.println("The Last Name is:" + lnme);
+		
+		 System.out.println("The  Email is :" + eml);
+		 System.out.println("The gender is :"+ gnd);
+		 System.out.println("The Phone Number is :" + phe);
+		 System.out.println("The Addhar Card number is:" + adh);
+		  
+		 }
+		  }
+		 
+		 
+		 
+		 
+		 

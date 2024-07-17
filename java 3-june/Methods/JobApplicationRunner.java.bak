@@ -1,0 +1,27 @@
+class JobApplicationtRunner
+  {
+
+   public static void main(String Appln[])
+   {
+
+      JobApplication.createJobApplication("Usha" ,"29/03/1999", "female" , "usha@gmail.com","RajajiNagarBanglore" ,234567890 );
+	  
+	  
+	  JobApplication.getJobApplicationDetails();
+	  
+}
+	  
+	  }
+class AmazonRunner
+{
+
+    public static void main(String App[]){
+
+      Amazon.createAmazon( "Rachana" , "rachana@gmail.com", "234@Rach" , 234567889 , 4326);
+	  
+	  
+	  Amazon.getAmazonDetails();
+	  
+}
+	  
+	  }

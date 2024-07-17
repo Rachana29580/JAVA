@@ -1,0 +1,68 @@
+class Liberty
+{
+	static String brandNames[] = {null, null, null, null, null, null, null,null ,null,null,null,null,null,null, null};
+	static int Index;
+	public static boolean addShoeBrand(String brandName)
+	{
+		boolean isbrandnameCreated = false;
+		System.out.println("addShoeBrand started..!");
+		if(brandName != null)
+		{
+			brandNames[Index++] = brandName;
+			isbrandnameCreated = true;
+		}else 
+			System.out.println("Shoe brand name is null, cannot be null");
+		System.out.println("addShoeBrand ended..!");
+		return isbrandnameCreated;
+		
+	}
+	
+	public static void getAllShoeBrand(){
+		
+		System.out.println(".........");
+		
+		System.out.println("Shoe Brand Are : ");
+		for(String brandName : brandNames) 
+			System.out.println(brandName);
+		
+	}
+public static boolean updateShoeBrand(String oldShoeBrand , String newShoeBrand)
+{
+	System.out.println("updateShoeBrand Started");
+	boolean isShoeBrandUpdated = false;
+	for(int index=0; index <brandNames.length;index++){
+		if(oldShoeBrand == brandNames[index]){
+			brandNames[index]=newShoeBrand;
+			isShoeBrandUpdated=true;
+		}
+	}
+	if(isShoeBrandUpdated==false){
+		System.out.println(oldShoeBrand+"not found");
+	}
+	System.out.println("updateShoeBrand ended");
+	return isShoeBrandUpdated;
+}
+	  public static boolean deleteShoeBrand(String shoeBrandTobeDeleted)
+	 {
+		 System.out.println(" started");
+		 boolean iswatchBrandNameDeleted =false;
+		 int newIndex , oldIndex;
+		 for( newIndex=0, oldIndex=0; oldIndex < watchBrandNames.length ; oldIndex++){
+		 if(watchBrandNames[oldIndex] != watchBrandNameTobeDeleted)
+		 {
+			 watchBrandNames[newIndex] = watchBrandNames[oldIndex];
+			 newIndex++;
+		 }
+	 }
+	 watchBrandNames = Arrays.copyOf(watchBrandNames , newIndex);
+	 if(watchBrandNames != null){
+		 iswatchBrandNameDeleted = true;
+	 }
+	 if(iswatchBrandNameDeleted == false){
+		 System.out.println(watchBrandNameTobeDeleted + "Not found");
+	 }
+	 System.out.println("deletewatchBrandName ended");
+	 return iswatchBrandNameDeleted;
+}
+
+}

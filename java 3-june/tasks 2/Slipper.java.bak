@@ -1,0 +1,19 @@
+class Slipper
+{
+   public static void main(String slipper[])
+ {
+            String Material = "Synthetic";
+			String Color = "browish";
+			String company = "bata" ;
+			int price = 1700;
+			Boolean waterResistance = no;
+			
+      System.out.println(" Material is :"  + Material)	;
+	  System.out.println(" Color is :" + Color);
+      System.out.println("Company is:" + company );
+	  System.out.println("Price is:" + price);
+	  System.out.println("WaterResistance is :" + waterResistance);
+	  
+	 
+ }
+}

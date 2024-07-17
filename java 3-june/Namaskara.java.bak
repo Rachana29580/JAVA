@@ -1,0 +1,7 @@
+class Namaskara{
+
+     public static void main(String[] rach){
+	 System.out.println("Banni java kaliyona")
+	 }
+	}
+	 

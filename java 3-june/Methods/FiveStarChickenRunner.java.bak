@@ -1,0 +1,21 @@
+class FiveStarChickenRunner
+{
+	public static void main(String []foodname)
+	{
+		double finalresult=Swiggy.takeOrder("prawn fry");
+		System.out.println(finalresult);
+		double finalresult1=Swiggy.takeOrder("Eggomlet");
+		System.out.println(finalresult1);
+		double finalresult2=Swiggy.takeOrder("Dhum Briyani");
+		System.out.println(finalresult2);
+		double finalresult3=Swiggy.takeOrder("Tandoori Chicken");
+		System.out.println(finalresult3);
+		double finalresult4=Swiggy.takeOrder("Egg cury");
+		System.out.println(finalresult4);
+		double finalresult5=Swiggy.takeOrder("Muttoncury");
+		System.out.println(finalresult5);
+		double finalresult6=Swiggy.takeOrder("ChickenTikka");
+		System.out.println(finalresult6);
+	}
+}
+		

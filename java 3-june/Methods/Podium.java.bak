@@ -1,0 +1,11 @@
+class Podium
+{
+public static void main(String [] table)
+{
+  hold();
+  }
+  public static void hold{}
+  {
+  System.out.println("Podium is used hold anything");
+  }
+ }

@@ -1,0 +1,36 @@
+class Sports
+{
+
+	
+  static String IplTeamNames[]={"Chennai Super Kings","Delhi Capitals","Gujarat Titans","Kolkata Knight Riders"};
+  static String Batsmen[]={"Sai Sudharsan","Shubman Gill","Suryakumar Yadav","Suryakumar Yadav"};
+  static String Bowlers[]={"Anil Kumble","Kapil Dev","Ravichandran Ashwin","Harbhajan Singh"};
+  static String iccTeamNames[]={"Australia","India","England","New zealand"};
+  public static void main (String[] cricket)
+  
+  {
+  
+   System.out.println("The IplTeamNames are:");
+   for(String IplTeamNames:IplTeamNames)
+   { 	
+	   System.out.println(IplTeamNames); 
+	   }
+	   
+   System.out.println("The BatsmenNames are:");
+   for(String BatsmenNames : BatsmenNames)
+   {
+	   System.out.println(BatsmenNames);
+   }
+    
+	System.out.println("The BowlersNames are:");
+	for(String BowlersNames : BowlersNames)
+	{
+		System.out.println(BowlersNmaes);
+	}
+   System.out.println("The iccTeamNames are:");
+   for(String iccTeamNames : iccTeamNames)
+   {
+	   System.out.println(iccTeamNames);
+   }
+  }
+}

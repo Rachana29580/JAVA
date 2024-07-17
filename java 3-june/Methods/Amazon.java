@@ -1,0 +1,45 @@
+class Amazon
+{
+        static String lgn;
+	    static String eml;
+	    static String pwd;
+		static int phne;
+		static int op;
+		 	 
+      public static boolean createAmazon(String login, String emailId, String password, int phoneNumber, int otp )
+	  
+	  { 
+         
+		 boolean isAmazonDataCreated =false;
+		 
+		 if(login !=null && emailId =!null && password !=null && phoneNumber >0 && otp >0 )
+		 {
+		 lgn = login;
+		 eml = emailId;
+		 pwd = password;
+		 phne = phoneNumber;
+		 op = otp;
+	  }
+	  else
+	  {
+		  System.out.println("Please provide valid login/emailId/password/phoneNumber/otp");
+	  }
+   return isAmazonDataCreated; 
+}    
+
+         public static void getAmazonDetails()
+    {
+         System.out.println("The login id  is:" + lgn);
+		 System.out.println("The  Email Id is:" + eml);
+		 System.out.println("The password is is:" + pwd);
+		 System.out.println("The Phone number is:" + phne);
+		 System.out.println("The given OTP is:" + op);
+		 
+		 
+		 }
+		  }
+		 
+		 
+		 
+		 
+		 

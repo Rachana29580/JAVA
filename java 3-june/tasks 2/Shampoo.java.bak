@@ -1,0 +1,18 @@
+class Shampoo
+{
+   public static void main(String haircare[])
+ {
+            String brand = "mamaearth";
+			String item foam = "gel";
+			String  scent = "cocount" ;
+			int price = 500;
+			double rating = 6.0;
+      System.out.println(" Brand is :"  + brand)	;
+	  System.out.println("Item Foam is :" + itemfoam);
+      System.out.println("Scent is:" + scent);
+	  System.out.println("Price is:" + price);
+	  System.out.println("Rating is :" + rating);
+	  
+	 
+ }
+}

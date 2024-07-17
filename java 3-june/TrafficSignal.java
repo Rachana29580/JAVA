@@ -1,0 +1,6 @@
+class TrafficSignal{
+  public static void main(String[] road) {
+  System.out.println(" Traffic signs help establish a means of communication between road users and transportation engineers");
+  System.out.println("These come under an umbrella term of traffic control devices, that encompass traffic signs, road markings, signals, etc.") ;
+  }
+}

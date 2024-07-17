@@ -1,0 +1,13 @@
+class SwiggyRunner
+{
+  public static void main(String[] food)
+  {
+	  System.out.printtln("Main Started");
+	  double output = Swiggy.takeOrder("pizza" , 2);
+	  System.out.printtln(output);
+	  double value = Swiggy.takeOrder("Buger" , 2);
+	  System.out.printtln(value);
+	  System.out.printtln("Main Ended");
+  }
+}
+	  

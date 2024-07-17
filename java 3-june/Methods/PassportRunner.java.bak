@@ -1,0 +1,9 @@
+class PassportRunner
+{
+	public static void main(String []Passportdetails)
+	{
+		Passport.createpassword("PO",8,"Venkatesh","Meghana","17/06/2002","meghajaanu75@gmail.com",true,"Jaanu@1234","Jannu@1234","write your fav colour","Wine red","MYT2W");
+		Passport.getpassPassportDetails();
+		
+}
+}

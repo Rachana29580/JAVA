@@ -1,0 +1,23 @@
+class User
+{
+            String userName = "Sun";
+			int userId = 212;
+			long contactNo = 23456745678L;
+			String emailId = "sun@gmail.com";
+			int dob = 1/1/24;
+			String address = "Rajajinagar Banglore";
+
+
+   public static void main(String person[])
+ {
+           
+      System.out.println("The UserName is :"  + userName)	;
+	  System.out.println("The UserId is :" + userId);
+	  System.out.println("contactNo is:" + contactNo);
+	  System.out.println("emailId is:" + emailId);
+	  System.out.println("dob id :" + dob);
+	  System.out.println("The address is:" + address);
+	  
+	  
+ }
+}
