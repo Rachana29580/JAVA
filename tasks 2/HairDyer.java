@@ -1,0 +1,19 @@
+class HairDyer
+{
+   public static void main(String haircare[])
+ {
+            String brand = "philips";
+			String color = "pink";
+			String wattage = "1200watts" ;
+			int price = 1450;
+			double rating = 5.8;
+			
+      System.out.println(" Brand is :"  + brand)	;
+	  System.out.println("Color is :" + color);
+      System.out.println("Wattage is:" + wattage);
+	  System.out.println("Price is:" + price);
+	  System.out.println("Rating is :" + rating);
+	  
+	 
+ }
+}

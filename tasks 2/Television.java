@@ -1,0 +1,18 @@
+class Television
+{
+   public static void main(String tv[])
+ {
+            String brand = "Samsung";
+			int screenSize = 55 ;
+			String displayTechnology = "UHD" ;
+			int price = 43000;
+			double rating = 5.0;
+      System.out.println("Brand is :"  + brand)	;
+	  System.out.println("Screen Size is :" + screenSize);
+      System.out.println("Display Technology is:" + displayTechnology);
+	  System.out.println("Price is:" + price);
+	  System.out.println("Rating is :" + rating);
+	  
+	 
+ }
+}
