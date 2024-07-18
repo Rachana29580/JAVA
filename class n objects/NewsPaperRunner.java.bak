@@ -1,0 +1,20 @@
+   class NewsPaperRunner
+{
+      public static void main(String[] read)
+    {
+      NewsPaper ref =  new NewsPaper();
+	  ref.companyName = "Clinic Plus";
+	  ref.id = 1;
+	  ref.noOfPages = 7;
+	  ref.language = "kannada";
+	  ref.price = 12.00; 
+	  
+	  
+	  System.out.println("The company name is:" +ref.companyName);
+	  System.out.println("The NewsPaper id  is:" +ref.id);
+	  System.out.println("The no of pages  is:" +ref.noOfPages);
+	  System.out.println("The NewsPaper quantity is:" +ref.language);
+	  System.out.println("The NewsPaper price is:" +ref.price);	
+	
+	  }
+	}

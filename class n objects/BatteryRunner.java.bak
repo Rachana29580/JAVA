@@ -1,0 +1,136 @@
+  class BatteryRunner
+{
+      public static void main(String[] charge)
+    {
+      Battery ref =  new Battery();
+	  ref.name = "Kannada Prabha";
+	  ref.id = 1;
+	  ref.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref.name);
+	  System.out.println("The Battery id  is:" +ref.id);
+	  System.out.println("The Battery price is:" +ref.price);	
+	  
+	  Battery ref1 =  new Battery();
+	  ref1.name = "Kannada Prabha";
+	  ref1.id = 2;
+	  ref1.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref1.name);
+	  System.out.println("The Battery id  is:" +ref1.id);
+	  System.out.println("The Battery price is:" +ref1.price);	
+	  
+	  Battery ref2 =  new Battery();
+	  ref2.name = "Kannada Prabha";
+	  ref2.id = 3;
+	  ref2.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref2.name);
+	  System.out.println("The Battery id  is:" +ref2.id);
+	  System.out.println("The Battery price is:" +ref2.price);	
+	  
+	  Battery ref3 =  new Battery();
+	  ref3.name = "Kannada Prabha";
+	  ref3.id = 4;
+	  ref3.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref3.name);
+	  System.out.println("The Battery id  is:" +ref3.id);
+	  System.out.println("The Battery price is:" +ref3.price);	
+	  
+	  Battery ref4 =  new Battery();
+	  ref4.name = "Kannada Prabha";
+	  ref4.id = 5;
+	  ref4.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref4.name);
+	  System.out.println("The Battery id  is:" +ref4.id);
+	  System.out.println("The Battery price is:" +ref4.price);	
+	  
+	  Battery ref6 =  new Battery();
+	  ref6.name = "Kannada Prabha";
+	  ref6.id = 6;
+	  ref6.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref6.name);
+	  System.out.println("The Battery id  is:" +ref6.id);
+	  System.out.println("The Battery price is:" +ref6.price);	
+	  
+	  Battery ref7 =  new Battery();
+	  ref7.name = "Kannada Prabha";
+	  ref7.id = 8;
+	  ref7.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref7.name);
+	  System.out.println("The Battery id  is:" +ref7.id);
+	  System.out.println("The Battery price is:" +ref7.price);	
+	  
+	  Battery ref8 =  new Battery();
+	  ref8.name = "Kannada Prabha";
+	  ref8.id = 9;
+	  ref8.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref8.name);
+	  System.out.println("The Battery id  is:" +ref8.id);
+	  System.out.println("The Battery price is:" +ref8.price);	
+	  
+	  Battery ref9 =  new Battery();
+	  ref9.name = "Kannada Prabha";
+	  ref9.id = 10;
+	  ref9.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref9.name);
+	  System.out.println("The Battery id  is:" +ref9.id);
+	  System.out.println("The Battery price is:" +ref9.price);	
+	  
+	  Battery ref 10=  new Battery();
+	  ref10.name = "Kannada Prabha";
+	  ref10.id = 11;
+	  ref10.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref10.name);
+	  System.out.println("The Battery id  is:" +ref10.id);
+	  System.out.println("The Battery price is:" +ref10.price);	
+	  
+	  Battery ref11=  new Battery();
+	  ref11.name = "Kannada Prabha";
+	  ref11.id = 12;
+	  ref11.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref11.name);
+	  System.out.println("The Battery id  is:" +ref11.id);
+	  System.out.println("The Battery price is:" +ref11.price);	
+	  
+	  Battery ref12 =  new Battery();
+	  ref12.name = "Kannada Prabha";
+	  ref12.id = 13;
+	  ref12.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref12.name);
+	  System.out.println("The Battery id  is:" +ref12.id);
+	  System.out.println("The Battery price is:" +ref12.price);	
+	  
+	  Battery ref13 =  new Battery();
+	  ref13.name = "Kannada Prabha";
+	  ref13.id = 14;
+	  ref13.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref13.name);
+	  System.out.println("The Battery id  is:" +ref13.id);
+	  System.out.println("The Battery price is:" +ref13.price);	
+	  
+	  Battery ref14 =  new Battery();
+	  ref14.name = "Kannada Prabha";
+	  ref14.id = 15;
+	  ref14.weight = 7;
+	  
+	  System.out.println("The battery name is:" +ref14.name);
+	  System.out.println("The Battery id  is:" +ref14.id);
+	  System.out.println("The Battery price is:" +ref14.price);	
+	  
+	  
+	  }
+	}
+	  
+	  
+	  
