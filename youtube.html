@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="icon" type="png/icon" href=youtube.png>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #030303;
+            font-family: Arial, sans-serif;
+        }
+        .Set {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; 
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .main-Set {
+            flex: 3;
+            margin-right: 20px;
+        }
+        .video-Set {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #050404;
+        }
+        .videosbar {
+            flex: 1;
+            background-color: #d6caca;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .videosbar .video {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .videosbar .video-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .videosbar .video-info h4 {
+            margin: 10px;
+            font-size: 14px;
+        }
+        .videosbar .video-info p {
+            margin: 1px;
+            font-size: 12px;
+            color: #080707;
+        }
+        .navbar .section {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .section img {
+            width: 90px;
+            margin-right: 20px;
+        }
+        .navbar .search-bar {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            size: 150;
+            outline: none;
+        }
+        .navbar .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 25px 0 0 25px;
+            outline: none;
+            background-color: #f3f0f0;
+            color: #f8f6f6;
+        }
+        .navbar .search-bar button {
+            padding: 10px;
+            border: none;
+
+            border-radius: 0 25px 25px 0;
+            background-color: #2f2e2e;
+            color: #070707;
+            cursor: pointer;
+        }
+        .navbar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .icons img {
+            width: 24px;
+            height: 24px;
+            margin-left: 20px;
+            cursor: pointer;
+            border-radius: 25PX;
+
+        }
+         .channel-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+        .channel-info .section {
+            display: flex;
+            align-items: center;
+        }
+        .channel-info .profile {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .channel-info .subscribe-btn {
+            background-color: #f00;
+            color: #0c0b0a;
+            border: none;
+            border-radius: 2px;
+            padding: 10px 16px;
+            border-radius: 25px  25px 25px 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .channel-info .actions {
+            display: flex;
+            align-items: center;
+        }
+        .channel-info .actions img {
+            width: 24px;
+            height: 24px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="section">
+            <img src="YouTube-Logo.png" style="height:40px ; width: 40px;" alt="YouTube Logo">
+            <div class="search-bar">
+                <input id="search" placeholder="Cantoon Network for children" size="150" style="outline: none;">
+                <button><img style="height: 15px; width: 15px;" src="search.png" alt="Search Icon"></button>
+            </div>
+        </div>
+        <div class="icons">
+            <img src="profile.png" alt="Upload Icon">
+          
+        </div>
+    </div>
+    <div class="Set">
+        <div class="main-Set">
+            <div class="video-Set">
+                <iframe style="border: none; border-radius:  15px  15px 15px 15px;" width="100%" height="500px"  src="https://www.youtube.com/embed/W08K2v1N9QI?si=mSTvWcVXcqAf0JK9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="channel-info">
+                <div class="section">
+                    
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="font-weight: bold;">Mr Bean | VERPLEEGSTER | Cartoon voor kinderen | WildBrain</div>
+                        <div style="font-size: 14px;color:beige;">234K subscribers</div>
+                    </div>
+                </div>
+                <button class="subscribe-btn">Subscribe</button><br><br>
+                <div class="actions">
+                    <img src="like.png" alt="Like Icon">
+                    <span style="margin-left: 5px;margin-right: 15px;">330K</span>
+                    <img src="dislike.png" alt="Dislike Icon">
+                    <img src="share.png" alt="Share Icon">
+                    <img src="more.png" alt="More Icon">
+                </div>
+            </div>
+
+        </div>
+         <div class="videosbar">
+             <div class="video" >
+                <iframe  style="border-radius: 10px  10px 10px 10px;" width="168" height="94" src="https://www.youtube.com/embed/Tb0UTT5pmgc?si=99UTVuGoTTerZRoL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h4>Mr Bean | EL SOFÁ | Dibujos animados para niños | WildBrain #MRBEAN</h4>
+                    <p>Cantoon-Network  569k views</p>
+                </div>
+            </div>
+            <div class="video">
+                <iframe   style="border-radius: 10px  10px 10px 10px;" width="168" height="94" src="https://www.youtube.com/embed/WmMlTXANxSs?si=j44IzzE6i3TpbKWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h4>Chhota Bheem - HoneyBee Trouble | Cartoon for Kids in Hindi </h4>
+                    <p>Cantoon-Network   4590k views</p>
+                </div>
+            </div>
+            <div class="video">
+                <iframe style="border-radius: 10px  10px 10px 10px;" width="168" height="94" src="https://www.youtube.com/embed/EzNUvHTj-3I?si=lvVJVcoefVfDzrWr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h4>TOM n JERRY-The Missing Mouse </h4>
+                    <p>Cantoon-Network   569k views</p>
+                </div>
+            </div>
+            <div class="video">
+                <iframe style="border-radius: 10px  10px 10px 10px;" width="168" height="94" src="https://www.youtube.com/embed/tW7gDAPaFHI?si=zzTt6tXQUWvtUDQZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h4> TOM n JERRY-The Framed Cat </h4>
+                    <p>Cantoon-Network   600k views</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
